@@ -1,3 +1,3 @@
 export const settings = {
-	base1c: "mif.hopto.org/rumath"
+	base1c: "http://mif.hopto.org/rumath"
 };
