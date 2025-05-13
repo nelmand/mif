@@ -33,7 +33,7 @@ async function checkLink(token) {
 
 async function searchChart() {
 	try {
-		const response2 = await fetch('charts/lastOfUs.json');
+		const response2 = await fetch('charts/lastOfUs.json', {cache: 'no-cache'});
 		const data = await response2.json();
 		lastOfUs = `charts/${data.lastOfUs}`;
 		window.location.href = lastOfUs;
