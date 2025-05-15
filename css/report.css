@@ -73,6 +73,7 @@ th.problem {
 
 td {
     text-align: center;
+    white-space: nowrap;
 }
 
 td.solved {
@@ -193,4 +194,8 @@ td.footstat {
     padding-left: 4pt;
     padding-right: 4pt;
 	color: #888888;
+}
+
+.blue-rank {
+	color: darkblue;
 }
