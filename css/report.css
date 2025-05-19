@@ -69,6 +69,7 @@ th.rankl {
 th.problem {
     text-align: center;
     width: 2em;
+    padding-left: 3pt;
 }
 
 td {
@@ -191,8 +192,8 @@ td.stat {
 
 td.footstat {
     text-align: center;
-    padding-left: 4pt;
-    padding-right: 4pt;
+    padding-left: 2pt;
+    padding-right: 2pt;
 	color: #888888;
 }
 

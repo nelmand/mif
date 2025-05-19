@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		elSearchInput.value = decodeURIComponent(filter);
 		searchFunction();
 	};
-	setInterval(checkId, 8000)
+	setInterval(checkId, 45000)
 })
 
 async function checkId() {
